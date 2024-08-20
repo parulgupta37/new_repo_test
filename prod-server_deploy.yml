@@ -1,4 +1,4 @@
-- hosts: test-server
+- hosts: prod-server
   become: true
   tasks:
   - name: update cache
@@ -16,5 +16,5 @@
        state: started
        enabled: true
 
-  - name: deploy to test-server
+  - name: deploy to prod-server
     command: docker run -itd -p 8082:8082 parulgupta6/medicure_new:2.0
