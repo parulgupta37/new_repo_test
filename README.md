@@ -12,7 +12,7 @@ Medicure aims to centrally manage all doctors' and patients' data across its hos
 - Deliver product updates frequently to production with high quality and reliability.
 - Accelerate software delivery speed and quality.
 - Reduce feedback time between developers and testers.
-
+aa
 
 ### Current Challenges
 
