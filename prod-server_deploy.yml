@@ -17,4 +17,4 @@
        enabled: true
 
   - name: deploy to prod-server
-    command: docker run -itd -p 8082:8082 parulgupta6/medicure_new:2.0
+    command: docker run -itd -p 8083:8083 parulgupta6/medicure_new:2.0
